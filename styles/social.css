@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#social {
+  display: flex;
+  color: #ffffff;
+  padding: 1% 10%;
+  align-items: center;
+  background: #000000;
+  justify-content: space-between;
+}
+
+#social > div {
+  display: flex;
+}
+
+#social > div > p {
+  margin-right: 20px;
+}
