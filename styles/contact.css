@@ -1,0 +1,21 @@
+#contact {
+  display: flex;
+  padding: 1% 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contact .contact-details {
+  display: flex;
+  align-items: center;
+}
+
+#contact .contact-details > div {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+#contact .contact-details > div i {
+  margin-right: 10px;
+}
