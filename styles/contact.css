@@ -1,21 +1,39 @@
 #contact {
-  display: flex;
-  padding: 1% 10%;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	padding: 1% 10%;
+	align-items: center;
+	justify-content: space-between;
 }
 
 #contact .contact-details {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 #contact .contact-details > div {
-  display: flex;
-  margin-right: 20px;
-  align-items: center;
+	display: flex;
+	margin-right: 20px;
+	align-items: center;
 }
 
 #contact .contact-details > div i {
-  margin-right: 10px;
+	margin-right: 10px;
+}
+
+.contact-information {
+	margin-right: 10px;
+}
+
+.contact-icon {
+	font-size: 17px;
+}
+
+.button {
+	background: #ff7300;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 15px 20px;
 }

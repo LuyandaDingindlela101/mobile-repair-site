@@ -1,0 +1,17 @@
+#navbar {
+    display: flex;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 15px 20px;
+    align-items: center;
+	text-decoration: none;
+	background: #ff7300;
+	text-transform: uppercase;
+    justify-content: space-between;
+}
+
+#navbar .navbar-links {
+    display: flex;
+    list-style: none;
+}
