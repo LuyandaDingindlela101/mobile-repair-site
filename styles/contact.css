@@ -1,39 +1,56 @@
 #contact {
 	display: flex;
-	padding: 1% 10%;
-	align-items: center;
 	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
 }
 
-#contact .contact-details {
+.contact-details {
 	display: flex;
 	align-items: center;
+	justify-content: flex-end;
 }
 
-#contact .contact-details > div {
+.contact-details > div {
 	display: flex;
-	margin-right: 20px;
 	align-items: center;
-}
-
-#contact .contact-details > div i {
-	margin-right: 10px;
-}
-
-.contact-information {
-	margin-right: 10px;
-}
-
-.contact-icon {
-	font-size: 17px;
 }
 
 .button {
-	background: #ff7300;
-	color: #ffffff;
+	background-color: #f26522;
+	padding: 2% 10%;
+	color: white;
 	text-decoration: none;
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+
+.button:hover {
+	background-color: #222;
+}
+
+.contact-icon {
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.contact-heading p {
+	white-space: nowrap;
+}
+
+.contact-heading-top {
 	text-transform: uppercase;
 	font-size: 12px;
-	font-weight: bold;
-	padding: 15px 20px;
+	color: #222;
+	font-weight: 600;
+}
+
+.contact-heading-bottom {
+	color: #f26522;
+}
+
+.contact-information {
+	margin: 0 20px;
 }
